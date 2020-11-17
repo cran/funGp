@@ -16,7 +16,6 @@ fgpm_factory(
   n.starts = 1,
   n.presample = 20,
   par.clust = NULL,
-  trace = FALSE,
   pbars = TRUE
 )
 }
@@ -130,9 +129,6 @@ n.starts will be assigned to n.presample if this last is smaller. Default is 20.
 \item{par.clust}{an optional parallel processing cluster created with the \code{\link[parallel]{makeCluster}}
 function of the \link[=parallel]{parallel package}. If not provided, structural configurations are evaluated in
 sequence.}
-
-\item{trace}{an optional boolean indicating if control messages regarding the optimization of the hyperparameters
-should be printed to console. Default is FALSE.}
 
 \item{pbars}{an optional boolean indicating if progress bars should be displayed. Default is TRUE.}
 }
@@ -303,6 +299,15 @@ sOut <- fgp_BB7(sIn, fIn, n.tr)
 cl <- parallel::makeCluster(2)
 xm.par <- fgpm_factory(sIn = sIn, fIn = fIn, sOut = sOut, par.clust = cl) #  (~260 seconds)
 parallel::stopCluster(cl)
+
+# NOTE: in order to provide progress bars for the monitoring of time consuming processes
+#       ran in parallel, funGp relies on the doFuture and future packages. Parallel processes
+#       suddenly interrupted by the user tend to leave corrupt connections. This problem is
+#       originated outside funGp, which limits our control over it. On section 4.1 of the
+#       of funGp, we provide a temporary solution to the issue and we remain attentive in
+#       case it appears a more elegant way to handle it or a manner to suppress it.
+#
+#       funGp manual: https://hal.archives-ouvertes.fr/hal-02536624
 }
 
 }
@@ -332,6 +337,8 @@ Dubrule, O. (1983),
 \strong{*} \link[funGp]{plotX} for diagnostic plots for a fgpm_factory output and selected model;
 
 \strong{*} \link[funGp]{plotEvol} for a plot of the evolution of the model selection algorithm in fgpm_factory;
+
+\strong{*} \link[funGp]{get_active_in} for post-processing of input data structures following a fgpm_factory call;
 
 \strong{*} \link[funGp]{predict} for predictions based on a funGp model;
 
