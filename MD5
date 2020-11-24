@@ -1,13 +1,13 @@
-cb53197de205ce4fc037cf8b97a041ff *DESCRIPTION
+ef4ca74e8504a129d780a016039fe89f *DESCRIPTION
 c156515e09e0fb5566fcdd447fb00095 *NAMESPACE
-a12d640814034f277adcdbe05ad86b8a *NEWS.md
+b9ec9082efbc98d25cbeae9406e6207c *NEWS.md
 16c792003d59f692219d1dde46b13942 *R/0_funGp_Doc.R
 774ff7800548889927df8f455e05584a *R/0_show_Doc.R
 36f1cc3cff248b7f6fbb3263dc563c98 *R/1_Xfgpm_Class.R
 c540f5e7920399b96fd00ff9fb884b62 *R/1_fgpm_Class.R
 b2826fee025c3c1083d9aba24a804aef *R/2_fgpKern_Class.R
 4ca1db8a2a8901c41f1fb9474a129f2e *R/2_fgpProj_Class.R
-d2829b5e3f05e6610b59773dd49cf2db *R/3_ant_admin.R
+a8febc4b7bb44e7dc055419388b52ec8 *R/3_ant_admin.R
 57df4e6c04ca63858172d64bd5b3a1b1 *R/3_ant_search.R
 40b781d1d1a1748034216315ff7bee9a *R/3_training_F.R
 fe6c90a5de7fe9e96041c554142905c8 *R/3_training_S.R
@@ -47,7 +47,7 @@ a429aeaa48103c58c6c72c2f32b94298 *man/fgpm-class.Rd
 5e6c8dbed912e85219d7817298aede2e *man/figures/logo.png
 66c6506def1da92b3a09bffc28cbc32d *man/funGp-package.Rd
 d661a3ed99781cc480ad871dda1f2273 *man/gaussian_cor.Rd
-3d7a1519a4130c378ccdf7e799b95a46 *man/get_active_in.Rd
+25088bd98369c1bc051b44e9df00e120 *man/get_active_in.Rd
 8eed035f54fc51d7b35264c389ac36f0 *man/kernel-class.Rd
 4eb6884523dc6c96c273ce56cb53c10f *man/matern32_cor.Rd
 247e96d55a46f136790a560380a4b54f *man/matern52_cor.Rd
