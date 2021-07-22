@@ -1,7 +1,7 @@
 Package: funGp
 Type: Package
 Title: Gaussian Process Models for Scalar and Functional Inputs
-Version: 0.2.1
+Version: 0.2.2
 Authors@R: c(
     person("Jose", "Betancourt", email = "djbetancourt@uninorte.edu.co", role = c("cre", "aut")),
     person("François", "Bachoc", email = "francois.bachoc@math.univ-toulouse.fr", role = "aut"),
@@ -27,8 +27,7 @@ URL: https://djbetancourt-gh.github.io/funGp/
 Imports: methods, foreach, knitr, scales, qdapRegex, microbenchmark,
         doFuture, future, progressr
 Encoding: UTF-8
-LazyData: true
-RoxygenNote: 7.1.0
+RoxygenNote: 7.1.1
 Collate: '0_funGp_Doc.R' '0_show_Doc.R' '8_outilsCode.R'
         '3_ant_admin.R' '2_fgpKern_Class.R' '2_fgpProj_Class.R'
         '1_fgpm_Class.R' '1_Xfgpm_Class.R' '3_ant_search.R'
@@ -40,11 +39,11 @@ Collate: '0_funGp_Doc.R' '0_show_Doc.R' '8_outilsCode.R'
         '7_distanceFunctions.R' '7_plottingFunctions.R'
         '8_outilsStats.R'
 NeedsCompilation: no
-Packaged: 2020-11-24 01:15:58 UTC; jose
+Packaged: 2021-07-22 04:57:54 UTC; djbet
 Author: Jose Betancourt [cre, aut],
   François Bachoc [aut],
   Thierry Klein [aut],
   Deborah Idier [ctb],
   Jeremy Rohmer [ctb]
 Repository: CRAN
-Date/Publication: 2020-11-24 05:30:02 UTC
+Date/Publication: 2021-07-22 08:40:05 UTC
