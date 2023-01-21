@@ -1,7 +1,7 @@
 Package: funGp
 Type: Package
 Title: Gaussian Process Models for Scalar and Functional Inputs
-Version: 0.3.0
+Version: 0.3.1
 Authors@R: c(
     person("Jose", "Betancourt", email = "djbetancourt@uninorte.edu.co", role = c("cre", "aut")),
     person("François", "Bachoc", email = "francois.bachoc@math.univ-toulouse.fr", role = "aut"),
@@ -25,13 +25,15 @@ Description: Construction and smart selection of Gaussian process models
 Note: research product of the RISCOPE project (ANR, project
         No.16CE04-0011) <https://perso.math.univ-toulouse.fr/riscope/>.
 License: GPL-3
-URL: https://djbetancourt-gh.github.io/funGp/
+URL: https://djbetancourt-gh.github.io/funGp/,
+        https://github.com/djbetancourt-gh/funGp
+BugReports: https://github.com/djbetancourt-gh/funGp/issues
 Depends: R (>= 3.5.0)
 Imports: methods, foreach, knitr, scales, microbenchmark, doFuture,
         doRNG, future, progressr
 Encoding: UTF-8
 LazyData: true
-RoxygenNote: 7.2.0
+RoxygenNote: 7.2.1
 Collate: '0_funGp_Doc.R' '0_show_Doc.R' '0_summary_Doc.R'
         '8_outilsCode.R' '3_ant_admin.R' '2_fgpKern_Class.R'
         '2_fgpProj_Class.R' '1_fgpm_Class.R' '1_Xfgpm_Class.R'
@@ -44,7 +46,7 @@ Collate: '0_funGp_Doc.R' '0_show_Doc.R' '0_summary_Doc.R'
         '7_plottingFunctions.R' '7_plottingFunctionsStandard.R'
         '8_outilsStats.R' '8_precalculated_Xfgpm_objects.R'
 NeedsCompilation: no
-Packaged: 2022-05-30 10:49:15 UTC; djbet
+Packaged: 2023-01-22 00:22:46 UTC; djbet
 Author: Jose Betancourt [cre, aut],
   François Bachoc [aut],
   Thierry Klein [aut],
@@ -52,4 +54,4 @@ Author: Jose Betancourt [cre, aut],
   Yves Deville [ctb],
   Deborah Idier [ctb]
 Repository: CRAN
-Date/Publication: 2022-05-30 11:20:06 UTC
+Date/Publication: 2023-01-22 00:40:02 UTC
