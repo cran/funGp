@@ -1,7 +1,7 @@
 Package: funGp
 Type: Package
 Title: Gaussian Process Models for Scalar and Functional Inputs
-Version: 0.3.1
+Version: 0.3.2
 Authors@R: c(
     person("Jose", "Betancourt", email = "djbetancourt@uninorte.edu.co", role = c("cre", "aut")),
     person("François", "Bachoc", email = "francois.bachoc@math.univ-toulouse.fr", role = "aut"),
@@ -46,7 +46,7 @@ Collate: '0_funGp_Doc.R' '0_show_Doc.R' '0_summary_Doc.R'
         '7_plottingFunctions.R' '7_plottingFunctionsStandard.R'
         '8_outilsStats.R' '8_precalculated_Xfgpm_objects.R'
 NeedsCompilation: no
-Packaged: 2023-01-22 00:22:46 UTC; djbet
+Packaged: 2023-04-25 07:24:37 UTC; djbet
 Author: Jose Betancourt [cre, aut],
   François Bachoc [aut],
   Thierry Klein [aut],
@@ -54,4 +54,4 @@ Author: Jose Betancourt [cre, aut],
   Yves Deville [ctb],
   Deborah Idier [ctb]
 Repository: CRAN
-Date/Publication: 2023-01-22 00:40:02 UTC
+Date/Publication: 2023-04-25 07:40:08 UTC
